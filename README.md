@@ -1,6 +1,12 @@
 # Tiny-Windows-Scripts
 
+## File Mangement: 
 
-Reference:    
-https://superuser.com/a/1091350/1674188    
-https://www.windowscentral.com/how-create-and-run-batch-file-windows-10
+### loop_worktrees
+- Loops through worktrees and finds the content of gitdir file. (Might be useful if the local repositiry folder has been moved.)
+
+### get_windows_details
+- Detail Windows 10, hardware, and networking configuration.
+
+### file_cleanup
+- Recursively delete all *.exe file in the current directory.

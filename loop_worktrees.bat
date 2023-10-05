@@ -1,3 +1,6 @@
+# Loops through worltrees and finds the content of gitdir file.
+# Might be useful if the local repositiry folder has been moved.
+
 $worktree_location = "last\.git\worktrees\"
 
 $directories = dir | % { if ($_.PsIsContainer) { $_.FullName + "\" } }
