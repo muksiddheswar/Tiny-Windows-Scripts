@@ -10,3 +10,7 @@
 
 ### file_cleanup
 - Recursively delete all *.exe file in the current directory.
+
+## Process Management:
+### CheckProcessStatus
+- Checks is a process is not responding and restart if so.
