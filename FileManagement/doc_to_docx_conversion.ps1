@@ -1,6 +1,6 @@
 # Travel recursively and convert all .doc files into .docx files
 
-$rootFolder = "C:\Git\Test\TitlePageDB\docs" 
+$rootFolder = "C:\XXX\XXXX\XXXXXX\XXX" 
 Get-ChildItem -Path $rootFolder -Recurse | Where-Object { $_.PSIsContainer } | ForEach-Object { Write-Host $_.FullName }
 
 
